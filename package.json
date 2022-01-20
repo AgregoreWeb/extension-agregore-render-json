@@ -1,0 +1,28 @@
+{
+  "name": "extension-agregore-render-json",
+  "version": "1.0.0",
+  "description": "prettyprint json",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify ./script.js -o ./bundle.js -v",
+    "lint": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agregore",
+    "json",
+    "extension"
+  ],
+  "author": "av8ta",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {},
+  "standard": {
+    "ignore": [
+      "bundle.js"
+    ]
+  }
+}
